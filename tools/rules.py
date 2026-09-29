@@ -11,8 +11,8 @@ BANNED = ["진흥인터내셔날", "architile.co.kr", "공식 취급점", "대�
 PREMIUM_BANNED = ["유지비", "LCC", "가격", "만원", "견적서", "30년", "비싸", "저렴"]   # BLUE·RED·BLACK은 가격·LCC 언급 금지
 # 카탈로그 사진 중 스타벅스 매장 (로고·매장 노출) — 사용 금지 (2026-09-29 브로 지시)
 BLOCKED_IMAGES = ["p01_646", "p31_415", "p33_431", "p34_439", "p34_441", "p35_445", "p36_455", "p37_465", "p39_486",
-                  # 세라비오R 폴더 DSC0393x·K10023: 출처 미확인(엔화 가격표 노출 컷 포함) — 브로 확인 전 사용 금지
-                  "DSC0393", "DSC0394", "K10023_",
+                  # 세라비오R 폴더 DSC03938: 엔화 가격표가 찍힌 컷 — 사용 금지 (나머지 DSC·K10023은 일본 현장, 2026-09-29 브로 확인)
+                  "DSC03938",
                   # 국내 미수입 색(세키하 SKH-2·3) — 국내 색으로 오인될 수 있어 사용 금지
                   "2020_SKH-2", "2020_SKH-3", "re_a02_", "STS-14",
                   "2020_1000361475", "YUKAGE-", "2020_Ramdom-HB-3", "2020_Romdom-HB-5", "p18_244"]   # 국내 미수입 색·타 제품
@@ -54,7 +54,10 @@ def lint(spec):
                or ("/architile/" in img and not catalog_case))
         if "/architile/" in img and not cap.strip():
             errs.append(f"사진 출처 캡션 필요: {img}")
-        if mfr and "제조사" not in cap:
+        japan_site = "/세라비오R/DSC0" in img or "/세라비오R/K10023" in img   # 일본 현장 사진 (브로 확인)
+        if japan_site and "일본" not in cap:
+            errs.append(f"일본 현장 사진은 '일본' 표기 필요: {img}")
+        elif mfr and not japan_site and "제조사" not in cap:
             errs.append(f"제조사 이미지 캡션에 '(제조사 제품 이미지)' 필요: {img}")
         if any(b in img for b in BLOCKED_IMAGES):
             errs.append(f"사용 금지 사진: {img}")
