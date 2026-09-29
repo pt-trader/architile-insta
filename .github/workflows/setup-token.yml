@@ -1,0 +1,26 @@
+name: 처음 1회 - 인스타 연결 확인
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: s
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_APP_SECRET: ${{ secrets.IG_APP_SECRET }}
+        run: python tools/setup_token.py
+      - name: 토큰·계정 ID 저장
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          NEW_TOKEN: ${{ steps.s.outputs.token }}
+        run: |
+          gh secret set IG_TOKEN --repo "${{ github.repository }}" --body "$NEW_TOKEN"
+          gh variable set IG_USER_ID --repo "${{ github.repository }}" --body "${{ steps.s.outputs.user_id }}"
+          echo "✅ 저장 완료 — @${{ steps.s.outputs.username }}"

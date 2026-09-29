@@ -1,0 +1,24 @@
+name: 인스타 토큰 갱신
+
+on:
+  schedule:
+    - cron: "40 0 * * 1"        # 매주 월요일 09:40 KST
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: r
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python tools/refresh_token.py
+      - name: 새 토큰을 시크릿에 저장
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          NEW_TOKEN: ${{ steps.r.outputs.token }}
+        run: gh secret set IG_TOKEN --repo "${{ github.repository }}" --body "$NEW_TOKEN"
