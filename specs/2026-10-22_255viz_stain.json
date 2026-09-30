@@ -1,0 +1,30 @@
+{
+ "id": "2026-10-22_255viz_stain",
+ "tier": "GREEN",
+ "tag": "아키타일 · 255비즈",
+ "feed_at": "2026-10-22T12:10",
+ "slides": [
+  {"type": "cover", "img": "@photos/architile/255비즈/GREY_VIZ-2_prdt26-list-img-ori2.jpg", "crop": [0.5, 0.5, 1.0],
+   "h": "외벽 얼룩이<br>덜 보이는 데는<br>이유가 있습니다", "p": "아키타일 255비즈", "cap": "그레이 (제조사 제품 이미지)"},
+  {"type": "text", "tone": "brand", "h": "단색 벽에서<br>생기는 일", "p": "비 흐른 자리의 물길, 창 아래 먼지,<br>실외기 옆 얼룩.<br>기준 색이 하나뿐이라 조금만 벗어나도 바로 보입니다."},
+  {"type": "detail", "img": "@photos/architile/255비즈/GREY_VIZ-2_prdt26-list-img-ori2.jpg", "crop": [0.5, 0.5, 1.0], "lens": [0.55, 0.42, 2.6], "lens_label": "한 장 안에 세 톤",
+   "h": "한 장에 세 가지 색", "p": "조각마다 톤이 조금씩 다르고<br>표면은 물결치듯 거칩니다.", "cap": "그레이 (제조사 제품 이미지)"},
+  {"type": "full", "img": "@photos/architile/255비즈/BEIGE_VIZ-4_prdt26-list-img-ori4.jpg", "crop": [0.5, 0.5, 1.0],
+   "h": "얼룩이 생겨도 그 안에 묻힙니다", "p": "때가 안 탄다는 게 아니라 덜 보인다는 것.<br>오염 자체를 줄이는 건 나노친수의 몫이에요.", "cap": "베이지 (제조사 제품 이미지)"},
+  {"type": "duo", "dir": "h", "h": "가로로도, 세로로도", "p": "1층 가로, 2층 세로 — 재료 하나로 층을 나눕니다.",
+   "imgs": [
+    {"img": "@photos/architile/255비즈/WHITE_VIZ-1_prdt26-list-img-ori1.jpg", "label": "가로"},
+    {"img": "@photos/architile/255비즈/WHITE_VIZ-1_prdt26-list-img-ori1.jpg", "rot": 90, "label": "세로", "brand": true}],
+   "cap": "화이트 (제조사 제품 이미지)"},
+  {"type": "grid", "h": "색은 네 가지 — 전부 세 톤 배합",
+   "imgs": [
+    {"img": "@photos/architile/255비즈/WHITE_VIZ-1_prdt26-list-img-ori1.jpg", "label": "화이트", "sub": "VIZ-1"},
+    {"img": "@photos/architile/255비즈/BEIGE_VIZ-4_prdt26-list-img-ori4.jpg", "label": "베이지", "sub": "VIZ-4"},
+    {"img": "@photos/architile/255비즈/GREY_VIZ-2_prdt26-list-img-ori2.jpg", "label": "그레이", "sub": "VIZ-2"},
+    {"img": "@photos/architile/255비즈/BLACK_VIZ-3_prdt26-list-img-ori3.jpg", "label": "블랙", "sub": "VIZ-3"}],
+   "cap": "(제조사 제품 이미지)"},
+  {"type": "cta", "h": "팔 길이만큼<br>떨어뜨려 보세요", "p": "코앞에선 조각이, 떨어지면 하나의 톤이 보입니다.<br>샘플 보내드려요. 창호·목재 샘플 옆에 같이 놓아보세요."}
+ ],
+ "caption": "외벽 얼룩이 덜 보이는 데는 이유가 있습니다.\n\n단색 외벽은 시간이 지나면 비 흐른 자리, 창 아래, 실외기 옆이 먼저 눈에 띕니다. 기준 색이 하나뿐이라 조금만 벗어나도 보이거든요.\n\n아키타일 255비즈는 한 장에 세 가지 색이 들어 있고, 표면도 물결치듯 거칩니다. 얼룩이 생겨도 이미 섞인 톤 안에 묻혀요. 때가 안 탄다는 게 아니라 덜 보인다는 것 — 오염 자체를 줄이는 건 나노친수의 몫입니다.\n\n가로로도 세로로도 붙일 수 있어서, 1층 가로·2층 세로처럼 재료 하나로 층을 나눌 수 있어요. 색은 화이트·베이지·그레이·블랙.\n\n※ 사진은 제조사 이미지입니다.\n\n파사드웍스 | INAX 아키타일(기능성 외장타일) 공급 및 시공\n샘플·상담 031.306.9630 · 프로필 링크",
+ "hashtags": ["#아키타일", "#255비즈", "#외장타일", "#외장재", "#전원주택"]
+}
