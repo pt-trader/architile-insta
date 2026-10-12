@@ -1,0 +1,133 @@
+{
+ "id": "2026-10-26_ombre_vertical",
+ "tier": "RED",
+ "tag": "아키타일 · 옹블보더",
+ "feed_at": "2026-10-26T12:10",
+ "reel_at": "2026-10-31T11:10",
+ "slides": [
+  {
+   "type": "cover",
+   "img": "@photos/INAX_official/interior-exterior/★옹블보더_ombre-border/gtw_ie_ombre-bor_clu_03.jpg",
+   "crop": [
+    0.45,
+    0.5,
+    1.0
+   ],
+   "h": "결이<br>세로로<br>섭니다",
+   "p": "건물이 높아 보이는 외장타일",
+   "cap": "(제조사 제품 이미지)"
+  },
+  {
+   "type": "duo",
+   "dir": "h",
+   "h": "시선은 선을 따라갑니다",
+   "p": "가로 결은 옆으로 흘러 낮고 넓게, 세로 결은 위아래로 흘러 높게.",
+   "imgs": [
+    {
+     "img": "@photos/architile/호소와리보더/BLACK_HB-6_prdt-list-img-ori2.jpg",
+     "label": "가로 결",
+     "sub": "호소와리보더"
+    },
+    {
+     "img": "@photos/architile/옹블보더/BLACK_OMB-4_om-color-ori3.jpg",
+     "label": "세로 결",
+     "sub": "옹블보더",
+     "brand": true
+    }
+   ],
+   "cap": "(제조사 제품 이미지)"
+  },
+  {
+   "type": "detail",
+   "img": "@photos/architile/옹블보더/BLACK_OMB-4_om-color-ori3.jpg",
+   "crop": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "lens": [
+    0.3,
+    0.45,
+    2.4
+   ],
+   "lens_label": "쪼갠 면 + 매끈한 면",
+   "h": "거친 막대는 앞으로, 매끈한 막대는 뒤로",
+   "p": "쪼갠 면 약 13.5mm · 평면 약 8mm.<br>5mm 넘는 차이가 세로 그림자를 만듭니다.",
+   "cap": "블랙 (제조사 제품 이미지)"
+  },
+  {
+   "type": "full",
+   "img": "@photos/INAX_official/interior-exterior/★옹블보더_ombre-border/gtw_ie_ombre-bor_clu_02.jpg",
+   "crop": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "h": "빛이 비스듬히 들면",
+   "p": "거친 면과 매끈한 면이<br>그대로 앞과 뒤가 됩니다.",
+   "cap": "(제조사 제품 이미지)"
+  },
+  {
+   "type": "swatch",
+   "h": "색은 세 가지",
+   "p": "제조사 라인업의 브라운은 들어오지 않습니다.",
+   "imgs": [
+    {
+     "img": "@photos/architile/옹블보더/BEIGE_OMB-1_om-color-ori1.jpg",
+     "label": "베이지",
+     "sub": "OMB-1"
+    },
+    {
+     "img": "@photos/architile/옹블보더/GRAY_OMB-2_om-color-ori2.jpg",
+     "label": "그레이",
+     "sub": "OMB-2"
+    },
+    {
+     "img": "@photos/architile/옹블보더/BLACK_OMB-4_om-color-ori3.jpg",
+     "label": "블랙",
+     "sub": "OMB-4"
+    }
+   ],
+   "cap": "(제조사 제품 이미지)"
+  },
+  {
+   "type": "full",
+   "img": "@photos/architile/옹블보더/catalog/제품컷_p07_111.jpg",
+   "crop": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "h": "이런 벽에 특히",
+   "p": "층고 아쉬운 2층집 · 낮아 보이는 넓은 입면<br>현관 옆 좁고 긴 벽",
+   "cap": "(제조사 제품 이미지)"
+  },
+  {
+   "type": "text",
+   "tone": "solid",
+   "img": "@photos/INAX_official/interior-exterior/★옹블보더_ombre-border/gtw_jtw_lombre-bo_fld1.jpg",
+   "crop": [
+    0.5,
+    0.5,
+    1.0
+   ],
+   "h": "미리 아셔야 할 것",
+   "p": "자르지 않는 게 원칙 — 벽 길이·창 위치를<br>설계 단계에서 타일 치수에 맞춰 나눕니다.<br>쪼갠 면에서 가루가 떨어질 수 있어 좁은 통로는 피하세요.",
+   "cap": "유닛 (제조사 제품 이미지)"
+  },
+  {
+   "type": "cta",
+   "h": "도면 단계에서<br>먼저 보셔야 할 타일",
+   "p": "샘플 보내드립니다.<br>세워서 한 번, 멀리서 한 번 보세요."
+  }
+ ],
+ "caption": "결이 세로로 섭니다.\n\n외장재는 대부분 결이 가로로 누워 있어요. 벽돌도, 보더 타일도. 그래서 건물이 낮고 넓어 보입니다. 아키타일 옹블보더는 그 방향을 돌려놓은 제품이에요. 시선이 위아래로 흐르니 같은 벽인데 높아 보입니다.\n\n쪼갠 면 막대(약 13.5mm)와 매끈한 막대(약 8mm)를 섞어서, 거친 쪽은 앞으로 나오고 매끈한 쪽은 뒤로 물러나요. 빛이 비스듬히 들면 세로 그림자가 떨어집니다.\n\n색은 베이지·그레이·블랙. 자르지 않는 게 원칙인 제품이라 벽 길이와 창 위치를 설계 단계에서 맞춰야 합니다.\n\n※ 사진은 제조사 이미지입니다.\n\n파사드웍스 | INAX 아키타일(기능성 외장타일) 공급 및 시공\n샘플·상담 031.306.9630 · 프로필 링크",
+ "reel_caption": "결이 세로로 섭니다 — 아키타일 옹블보더.\n\n파사드웍스 | 샘플·상담 031.306.9630",
+ "hashtags": [
+  "#아키타일",
+  "#옹블보더",
+  "#외장타일",
+  "#외장재",
+  "#단독주택"
+ ]
+}
