@@ -161,8 +161,8 @@ def main():
     now = datetime.now(KST)
     if env("FAKE_NOW"):                      # 테스트 전용
         now = datetime.fromisoformat(env("FAKE_NOW")).replace(tzinfo=KST)
-    if env("PAUSED", "").lower() == "true":
-        print("⏸ PAUSED=true — 게시 중단 상태"); return
+    if env("PAUSED", "").lower() == "true" or (ROOT / "PAUSED").exists():
+        print("⏸ PAUSED — 게시 중단 상태 (변수 PAUSED=true 또는 저장소 루트의 PAUSED 파일)"); return
     state = load_state()
     todo = due_items(state, now)
     if not todo:
